@@ -1,38 +1,203 @@
-.App {
+
+/* background color for Navbar */
+.bg-myBlue {
+  background-color: blue;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1b1414;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 80px;
+    
+}
+.footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+}
+.footer-left, .footer-right {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.form2 {
+  text-align: center;
+}
+.nameonform {
+  text-align: center;
+  max-width: 30%;
+}
+
+.textarea {
+  min-width: 30%;
+}
+.facebook {
+  padding-right: 10px;
+}
+
+.instagram {
+  padding-right: 10px;
+}
+
+.twitter {
+  padding-right: 10px;
+}
+.socialicons {
+  text-align: center;
+}
+.AddEditTop {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rating {
+  margin: auto;
+  padding-left: 15px;
+  margin-inline: 50px
+  
+}
+.container-flex {
+ text-align: center;
+ align-items: center;
+ align-content: center;
+}
+.image {
+  margin-left: 550px;
+}
+/* CSS for my StarReview */
+input[type="radio"] {
+  display: none;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+  text-align: center;
+  justify-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80px;
+  margin-left: 183px;
+  
+  
+}
+/* This is CSS for my AddEdit page */
+.Form {
+  margin-left: 90%;
+  width: 150%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-content: center;
+}
+input[type="textarea"] {
+  text-align: center;
+  align-content: center;
+}
+.content {
+  text-align: center;
+}
+.main {
+  text-align: center;
+  width: 60%;
+}
+.AddEditTop {
+  text-align: center;
+  margin-left: 150;
+
+}
+.Loader {
+  text-align: center;
+  padding: 75%;
+}
+#warning {
+  min-width: 60%;
 }
 
-.App-link {
-  color: #61dafb;
+/* CSS for my home page  */
+h1 {
+  text-align: center;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 70%;
+  max-width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  text-align: center;
+  display: ruby-text-container
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th {
+  padding: 12px 15px;
+}
+
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.btn {
+  border: none;
+  
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:  4px 2px;
+  cursor: pointer;
+  max-width: 100px;
+}
+#reviewbtn {
+  text-justify:auto;
+  padding: 10px;
+  padding-left: 165px;
+  padding-right: 200px;
+  text-align: center;
 }
